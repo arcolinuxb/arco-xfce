@@ -15,20 +15,34 @@
 #Setting variables
 #Let us change the name"
 desktop="xfce"
-
+#build.sh
 oldname1="iso_name=arcolinux"
 newname1="iso_name=arcolinuxb-$desktop"
 
 oldname2='iso_label="arcolinux'
-newname2='iso_label="arcolinuxb-'$desktop
+newname2='iso_label="alb-'$desktop
+
+#os-release
+oldname3='NAME="ArcoLinux"'
+newname3='NAME=ArcoLinuxB-'$desktop
+
+oldname4='ID=ArcoLinux'
+newname4='ID=ArcoLinuxB-'$desktop
+
+#lsb-release
+oldname5='DISTRIB_ID=ArcoLinux'
+newname5='DISTRIB_ID=ArcoLinuxB-'$desktop
+
+oldname6='DISTRIB_DESCRIPTION="ArcoLinux"'
+newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-'$desktop
 
 echo "Phase 1 : clean up and download the latest ArcoLinux-iso from github"
 echo "################################################################## "
 echo "Deleting the tmp folder if one exists - takes some time"
 [ -d /tmp/git-clone-arcolinux-iso ] && sudo rm -rf /tmp/git-clone-arcolinux-iso
 echo "Deleting the build folder if one exists - takes some time"
-[ -d ~/byoi-arcolinux-build ] && sudo rm -rf ~/byoi-arcolinux-build
-echo "Git cloning files and folder to /tmp/byoi-arcolinux-build"
+[ -d ~/arcolinuxb-build ] && sudo rm -rf ~/arcolinuxb-build
+echo "Git cloning files and folder to /tmp/arcolinuxb-build"
 git clone https://github.com/arcolinux/arcolinux-iso /tmp/git-clone-arcolinux-iso
 echo "Phase 2 : Getting the latest updates for some important files"
 echo "################################################################## "
@@ -60,8 +74,10 @@ echo "Let us change the name"
 
 sed -i 's/'$oldname1'/'$newname1'/g' ../archiso/build.sh
 sed -i 's/'$oldname2'/'$newname2'/g' ../archiso/build.sh
-sed -i 's/'$oldname1'/'$newname1'/g' ../archiso/airootfs/etc/os-release
-sed -i 's/'$oldname1'/'$newname1'/g' ../archiso/airootfs/etc/lsb-release
+sed -i 's/'$oldname3'/'$newname3'/g' ../archiso/airootfs/etc/os-release
+sed -i 's/'$oldname4'/'$newname4'/g' ../archiso/airootfs/etc/os-release
+sed -i 's/'$oldname5'/'$newname5'/g' ../archiso/airootfs/etc/lsb-release
+sed -i 's/'$oldname6'/'$newname6'/g' ../archiso/airootfs/etc/lsb-release
 
 echo "Phase 4 : Let us build the iso"
 echo "################################################################## "
@@ -119,11 +135,11 @@ fi
 
 
 
-echo "Copying files and folder to ~/byoi-arcolinux-build as root"
-sudo mkdir ~/byoi-arcolinux-build
-sudo cp -r /tmp/git-clone-arcolinux-iso/* ~/byoi-arcolinux-build
+echo "Copying files and folder to ~/arcolinuxb-build as root"
+sudo mkdir ~/arcolinuxb-build
+sudo cp -r /tmp/git-clone-arcolinux-iso/* ~/arcolinuxb-build
 
-cd ~/byoi-arcolinux-build/archiso
+cd ~/arcolinuxb-build/archiso
 
 
 echo "################################################################"
