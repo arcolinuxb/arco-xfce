@@ -20,7 +20,7 @@ oldname1="iso_name=arcolinux"
 newname1="iso_name=arcolinuxb-$desktop"
 
 oldname2='iso_label="arcolinux'
-newname2='iso_label="alb-'$desktop
+newname2='iso_label="arcolinuxb-'$desktop
 
 echo "Phase 1 : clean up and download the latest ArcoLinux-iso from github"
 echo "################################################################## "
@@ -50,7 +50,7 @@ echo "slim.conf copied"
 echo
 echo "BYOI - getting the files for this specific desktop"
 rm ../archiso/packages.both
-wget https://raw.githubusercontent.com/arcolinux-byoi/arcolinux-xfce/master/archiso/packages.both -O ../archiso/packages.both
+wget https://raw.githubusercontent.com/arcolinuxb/arco-xfce/master/archiso/packages.both -O ../archiso/packages.both
 echo "Packages.both copied"
 echo "################################################################## "
 
