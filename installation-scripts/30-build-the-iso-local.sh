@@ -17,20 +17,22 @@
 desktop="xfce"
 
 oldname1="iso_name=arcolinux"
-newname1="iso_name=arcolinuxb-$desktop"
+newname1="iso_name=arcolinux-$desktop"
 
 oldname2='iso_label="arcolinux'
-newname2='iso_label="arcolinuxb-'$desktop
+newname2='iso_label="alb-'$desktop
 
 echo "Phase 1 : clean up and download the latest ArcoLinux-iso from github"
 echo "################################################################## "
 echo "Deleting the tmp folder if one exists - takes some time"
 [ -d /tmp/git-clone-arcolinux-iso ] && sudo rm -rf /tmp/git-clone-arcolinux-iso
+sleep 10
 echo "Deleting the build folder if one exists - takes some time"
 [ -d ~/byoi-arcolinux-build ] && sudo rm -rf ~/byoi-arcolinux-build
+sleep 10
 echo "Git cloning files and folder to /tmp/byoi-arcolinux-build"
 git clone https://github.com/arcolinux/arcolinux-iso /tmp/git-clone-arcolinux-iso
-
+sleep 10
 echo "Phase 2 : Getting the latest updates for some important files"
 echo "################################################################## "
 echo "Moving to the tmp folder to work"
