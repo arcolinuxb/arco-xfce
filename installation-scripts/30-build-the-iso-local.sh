@@ -16,6 +16,7 @@
 #Let us change the name"
 #First letter of desktop capital
 desktop="Xfce"
+githuburl="https://raw.githubusercontent.com/arcolinuxb/arco-xfce/master/archiso/packages.both"
 #build.sh
 oldname1="iso_name=arcolinux"
 newname1="iso_name=arcolinuxb-$desktop"
@@ -65,7 +66,7 @@ echo "slim.conf copied"
 echo
 echo "BYOI - getting the files for this specific desktop"
 rm ../archiso/packages.both
-wget https://raw.githubusercontent.com/arcolinuxb/arco-xfce/master/archiso/packages.both -O ../archiso/packages.both
+wget $githuburl -O ../archiso/packages.both
 echo "Packages.both copied"
 echo "################################################################## "
 
