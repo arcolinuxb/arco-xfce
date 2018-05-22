@@ -234,7 +234,7 @@ guvcview
 hardinfo
 imagemagick
 inkscape
-libreoffice-fresh
+#libreoffice-fresh
 meld
 nitrogen
 numlockx
