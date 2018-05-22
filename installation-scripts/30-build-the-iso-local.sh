@@ -14,7 +14,8 @@
 
 #Setting variables
 #Let us change the name"
-desktop="xfce"
+#First letter of desktop capital
+desktop="Xfce"
 #build.sh
 oldname1="iso_name=arcolinux"
 newname1="iso_name=arcolinuxb-$desktop"
