@@ -14,9 +14,8 @@
 
 #Setting variables
 #Let us change the name"
-#First letter of desktop capital
-desktop="Xfce"
-githuburl="https://raw.githubusercontent.com/arcolinuxb/arco-xfce/master/archiso/packages.both"
+#First letter of desktop small
+desktop="Xx"https://raw.githubusercontent.com/arcolinuxb/arco-xfce/master/archiso/packages.both"
 #build.sh
 oldname1="iso_name=arcolinux"
 newname1="iso_name=arcolinuxb-$desktop"
