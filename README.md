@@ -1,12 +1,12 @@
-# ArcoLinux BYOI XFCE desktop
+# ArcoLinux BYOI Awesome desktop
 
 # Get your code to build your own iso
 
-	git clone https://github.com/arcolinuxb/arco-xfce
+	git clone https://github.com/arcolinuxb/arco-awesome
 
 # Follow installation tutorials on
 
-https://arcolinux.com/byoi-on-arcolinux-xfce-only/
+https://arcolinux.com/byoi-on-arcolinuxb-awesome-only/
 
 # Websites
 
