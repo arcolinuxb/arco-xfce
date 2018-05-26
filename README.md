@@ -6,7 +6,7 @@
 
 # Follow installation tutorials on
 
-https://arcolinux.com/byoi-on-arcolinuxb-awesome-only/
+https://arcolinuxd.com/byoi-create-arcolinuxb-awesome-iso/
 
 # Websites
 

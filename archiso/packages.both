@@ -473,13 +473,13 @@ yad
 yaourt
 
 #xfce4
-xfpanel-switch
+#xfpanel-switch
 
 #############################
 #arcolinux_repo for arcolinux
 arcolinux-applications-git
 arcolinux-arc-themes-git
-#arcolinux-awesome-git
+arcolinux-awesome-git
 arcolinux-bin-git
 #arcolinux-bspwm-git
 arcolinux-common-git
@@ -518,3 +518,7 @@ arcolinux-xfce-thunar-git
 calamares
 boost-libs
 arcolinuxb-calamares-xfce-git
+
+#Desktop specific
+awesome
+vicious
