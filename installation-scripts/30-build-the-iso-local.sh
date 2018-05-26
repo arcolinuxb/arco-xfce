@@ -40,7 +40,7 @@ newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-'$desktop
 
 echo "Phase 1 : clean up and download the latest ArcoLinux-iso from github"
 echo "################################################################## "
-echo "Deleting the tmp folder if one exists - takes some time"
+echo "Deleting the tmp folder if one exists"
 [ -d /tmp/git-clone-arcolinux-iso ] && sudo rm -rf /tmp/git-clone-arcolinux-iso
 echo "Deleting the build folder if one exists - takes some time"
 [ -d ~/arcolinuxb-build ] && sudo rm -rf ~/arcolinuxb-build

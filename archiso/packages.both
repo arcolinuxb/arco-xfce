@@ -322,8 +322,8 @@ glances
 gnome-disk-utility
 gnome-keyring
 gnome-screenshot
-gnome-software
-gnome-software-packagekit-plugin
+#gnome-software
+#gnome-software-packagekit-plugin
 gparted
 gpick
 gtop
@@ -517,4 +517,4 @@ arcolinux-xfce-thunar-git
 #Calamares installer
 calamares
 boost-libs
-arcolinux-calamares-git
+arcolinux-calamares-xfce-git
