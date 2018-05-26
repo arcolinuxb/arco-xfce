@@ -2,11 +2,11 @@
 
 # Get your code to build your own iso
 
-	git clone https://github.com/arcolinuxb/arco-awesome
+	git clone https://github.com/arcolinuxb/arco-xfce
 
 # Follow installation tutorials on
 
-https://arcolinuxd.com/byoi-create-arcolinuxb-awesome-iso/
+https://arcolinuxd.com/byoi-create-arcolinuxb-xfce-iso/
 
 # Websites
 
