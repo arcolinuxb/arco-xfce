@@ -436,9 +436,6 @@ b43-firmware
 #obmenu-generator
 #perl-linux-desktopfiles
 
-#theming
-#openbox-arc-git
-
 #tools
 mkinitcpio-openswap
 
@@ -530,4 +527,3 @@ arcolinux-xfce-thunar-git
 calamares
 boost-libs
 arcolinuxb-calamares-xfce-git
-
