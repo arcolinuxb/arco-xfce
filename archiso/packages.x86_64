@@ -380,7 +380,7 @@ wget
 wmctrl
 xapps
 xdg-desktop-portal-gtk
-xcape
+#xcape
 xfburn
 zenity
 zsh
