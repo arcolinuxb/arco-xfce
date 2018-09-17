@@ -139,7 +139,7 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
-volumeicon
+#volumeicon
 
 #bluetooth
 blueberry
