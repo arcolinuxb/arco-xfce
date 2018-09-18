@@ -139,7 +139,7 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
-volumeicon
+#volumeicon
 
 #bluetooth
 blueberry
@@ -221,7 +221,7 @@ chromium
 #darktable
 dmenu
 evolution
-feh
+#feh
 firefox
 #flashplugin
 galculator
@@ -380,7 +380,7 @@ wget
 wmctrl
 xapps
 xdg-desktop-portal-gtk
-xcape
+#xcape
 xfburn
 zenity
 zsh
