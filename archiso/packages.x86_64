@@ -502,6 +502,7 @@ arcolinux-termite-themes-git
 #arcolinux-tint2-themes-git
 arcolinux-variety-git
 arcolinux-wallpapers-git
+arcolinux-xfce4-panel-profiles-git
 arcolinux-xfce-thunar-git
 
 #xfce4 also for ArcoLinuxB iso builds
@@ -563,6 +564,7 @@ xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 
+xfce4-panel-profiles
 
 #Needed for Calamares installer
 calamares
