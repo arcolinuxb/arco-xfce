@@ -370,8 +370,8 @@ webkit2gtk
 wget
 wmctrl
 xapps
-xdg-desktop-portal-gtk
 #xcape
+xdg-desktop-portal-gtk
 xfburn
 zenity
 zsh
@@ -390,6 +390,7 @@ vivaldi-codecs-ffmpeg-extra-bin
 #cursors
 breeze-cursors-lh
 breeze-obsidian-cursor-theme
+oxy-neon
 xcursor-breeze
 xcursor-vanilla-dmz-aa
 
