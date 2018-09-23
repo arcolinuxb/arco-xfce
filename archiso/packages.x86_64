@@ -507,7 +507,7 @@ arcolinux-xfce-thunar-git
 #xfce4 also for ArcoLinuxB iso builds
 #xfce4 group content
 exo
-#garcon
+garcon
 gtk-xfce-engine
 thunar
 thunar-volman
