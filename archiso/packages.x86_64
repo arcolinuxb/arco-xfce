@@ -440,7 +440,7 @@ mugshot
 neofetch
 oh-my-zsh-git
 #oomox
-package-query
+#package-query
 pamac-aur
 peek
 pulseaudio-equalizer-ladspa
@@ -455,7 +455,18 @@ urxvt-resize-font-git
 wttr
 yad
 yay-bin
-yaourt
+#yaourt
+
+#############################
+#Games
+#############################
+
+#steam
+#steam-native-runtime
+#lutris
+#sauerbraten
+#xonotic
+
 
 #############################
 #arcolinux_repo for arcolinux
