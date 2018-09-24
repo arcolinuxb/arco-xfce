@@ -78,6 +78,7 @@ xterm
 #video
 #xorg-drivers
 #xorg-drivers includes
+xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-libinput
@@ -183,6 +184,7 @@ xdg-user-dirs
 
 #printers
 cups
+cups-filters
 cups-pdf
 cups-pk-helper
 ghostscript
@@ -190,7 +192,7 @@ gsfonts
 gtk3-print-backends
 gutenprint
 libcups
-hplip
+#hplip
 splix
 system-config-printer
 
@@ -208,6 +210,7 @@ freetype2
 libgsf
 libopenraw
 poppler-glib
+poppler-qt5
 
 ###########################
 #Software from Arch repo's
