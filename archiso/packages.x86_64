@@ -88,24 +88,24 @@ xf86-input-mouse
 xf86-input-void
 xf86-video-amdgpu
 xf86-video-ati
-xf86-video-dummy
+#xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
-#xf86-video-nouveau
+xf86-video-nouveau
 xf86-video-openchrome
 #xf86-video-qxl
 xf86-video-vesa
-xf86-video-vmware
-xf86-video-voodoo
-xf86-video-sisusb
+#xf86-video-vmware
+#xf86-video-voodoo
+#xf86-video-sisusb
 
 #hardware video support
 #bumblebee
-libva-intel-driver
-libva-vdpau-driver
+#libva-intel-driver
+#libva-vdpau-driver
 mesa
 #mesa-demos
-mesa-vdpau
+#mesa-vdpau
 #opencl-mesa
 #primus
 #vulkan-intel
