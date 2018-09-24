@@ -258,7 +258,7 @@ xcursor-simpleandsoft
 #fonts
 adobe-source-sans-pro-fonts
 awesome-terminal-fonts
-cantarell-fonts
+#cantarell-fonts
 ckbcomp
 noto-fonts
 terminus-font
