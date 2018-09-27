@@ -238,7 +238,7 @@ imagemagick
 inkscape
 #libreoffice-fresh
 meld
-nitrogen
+#nitrogen
 numlockx
 pragha
 scrot
@@ -498,7 +498,7 @@ arcolinux-lightdm-gtk-greeter
 arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-git
 arcolinux-neofetch-git
-arcolinux-nitrogen-git
+#arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-awesome
 #arcolinux-oblogout-bspwm
