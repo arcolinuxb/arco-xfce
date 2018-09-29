@@ -600,5 +600,6 @@ boost-libs
 libpwquality
 squashfs-tools
 plasma-framework
+hwinfo
 
 arcolinuxb-calamares-xfce-git
