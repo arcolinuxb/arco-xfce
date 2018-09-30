@@ -225,7 +225,7 @@ chromium
 #deadbeef
 dmenu
 evolution
-#feh
+feh
 firefox
 #flashplugin
 galculator
@@ -260,7 +260,6 @@ xcursor-simpleandsoft
 adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 #cantarell-fonts
-ckbcomp
 noto-fonts
 terminus-font
 ttf-bitstream-vera
@@ -552,7 +551,7 @@ xfwm4-themes
 ristretto
 thunar-archive-plugin
 thunar-media-tags-plugin
-xfburn
+#xfburn
 #xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
@@ -588,6 +587,7 @@ xfce4-panel-profiles
 
 #Needed for Calamares installer
 calamares
+ckbcomp
 networkmanager
 upower
 kcoreaddons
