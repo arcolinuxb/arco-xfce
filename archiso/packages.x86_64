@@ -285,6 +285,8 @@ lightdm
 
 
 #lx-applications
+#lxappearance
+#lxappearance-gtk3
 #lxappearance-obconf
 #lxappearance-obconf-gtk3
 #lxrandr
@@ -355,7 +357,6 @@ qt5-webkit
 powertop
 reflector
 redshift
-ristretto
 rofi
 rxvt-unicode
 simple-scan
