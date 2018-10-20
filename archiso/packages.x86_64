@@ -588,6 +588,7 @@ xfce4-panel-profiles
 
 #Needed for Calamares installer
 calamares
+arcolinuxb-calamares-xfce-git
 ckbcomp
 networkmanager
 upower
@@ -603,4 +604,3 @@ squashfs-tools
 plasma-framework
 hwinfo
 
-arcolinuxb-calamares-xfce-git
