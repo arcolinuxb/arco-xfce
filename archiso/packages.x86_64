@@ -524,6 +524,7 @@ arcolinux-plank-git
 arcolinux-plank-themes-git
 #arcolinux-polybar-git
 arcolinux-qt5-git
+#arcolinux-qt5-plasma-git
 arcolinux-rofi-git
 arcolinux-rofi-themes-git
 arcolinux-root-git
