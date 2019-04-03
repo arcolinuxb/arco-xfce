@@ -605,8 +605,8 @@ xfce4-panel-profiles
 
 #Needed for Calamares installer
 calamares
-arcolinuxb-calamares-xfce-git
 arcolinux-system-installation-git
+arcolinuxb-calamares-xfce-git
 ckbcomp
 networkmanager
 upower
