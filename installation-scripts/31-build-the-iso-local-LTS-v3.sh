@@ -22,24 +22,24 @@ desktop="xfce"
 
 #build.sh
 oldname1="iso_name=arcolinux"
-newname1="iso_name=arcolinuxb-$desktop"
+newname1="iso_name=arcolinuxb-lts-$desktop"
 
 oldname2='iso_label="arcolinux'
-newname2='iso_label="alb-'$desktop
+newname2='iso_label="alb-lts-'$desktop
 
 #os-release
 oldname3='NAME="ArcoLinux"'
-newname3='NAME=ArcoLinuxB-'$desktop
+newname3='NAME=ArcoLinux-lts-'$desktop
 
 oldname4='ID=ArcoLinux'
-newname4='ID=ArcoLinuxB-'$desktop
+newname4='ID=ArcoLinuxB-lts-'$desktop
 
 #lsb-release
 oldname5='DISTRIB_ID=ArcoLinux'
-newname5='DISTRIB_ID=ArcoLinuxB-'$desktop
+newname5='DISTRIB_ID=ArcoLinuxB-lts-'$desktop
 
 oldname6='DISTRIB_DESCRIPTION="ArcoLinux"'
-newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-'$desktop
+newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-lts-'$desktop
 
 oldname7='ArcoLinux'
 newname7='ArcoLinuxB-'$desktop
@@ -184,6 +184,27 @@ echo "In order to build an iso we need to clean your cache"
 echo "################################################################"
 
 yes | sudo pacman -Scc
+
+
+echo
+echo "################################################################## "
+echo "You have chosen for the linux-lts kernel"
+echo "################################################################## "
+echo
+
+WDP=$HOME"/arcolinuxb-build/archiso"
+
+FIND="calamares"
+REPLACE="calamares-lts"
+sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
+
+FIND="arcolinux-calamares-git"
+REPLACE="arcolinux-calamares-lts-git"
+sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
+
+FIND="#arcolinux-local-repo-git"
+REPLACE="arcolinux-local-repo-git"
+sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
 echo "################################################################"
 echo "Building the iso - Start"
