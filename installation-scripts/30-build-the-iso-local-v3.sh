@@ -19,6 +19,7 @@
 #Let us change the name"
 #First letter of desktop small
 desktop="xfce"
+calamaresdesktopname="xfce"
 
 #build.sh
 oldname1="iso_name=arcolinux"
@@ -41,8 +42,13 @@ newname5='DISTRIB_ID=ArcoLinuxB-'$desktop
 oldname6='DISTRIB_DESCRIPTION="ArcoLinux"'
 newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-'$desktop
 
+#hostname
 oldname7='ArcoLinux'
 newname7='ArcoLinuxB-'$desktop
+
+#hosts
+oldname8='ArcoLinux'
+newname8='ArcoLinuxB-'$desktop
 
 echo
 echo "################################################################## "
@@ -85,8 +91,8 @@ sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
-sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hosts
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
+sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 
 echo
 echo "################################################################## "
