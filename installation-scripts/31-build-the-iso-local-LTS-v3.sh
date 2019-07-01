@@ -19,6 +19,7 @@
 #Let us change the name"
 #First letter of desktop small
 desktop="xfce"
+calamaresdesktopname="xfce"
 
 #build.sh
 oldname1="iso_name=arcolinux"
@@ -205,8 +206,8 @@ REPLACE="calamares-lts"
 sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
 #extra fix for wrong replacement
-FIND="arcolinuxb-calamares-lts-"$desktop"-git"
-REPLACE="arcolinuxb-calamares-"$desktop"-lts-git"
+FIND="arcolinuxb-calamares-lts-"$calamaresdesktopname"-git"
+REPLACE="arcolinuxb-calamares-"$calamaresdesktopname"-lts-git"
 sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
 FIND="#arcolinux-local-repo-git"
