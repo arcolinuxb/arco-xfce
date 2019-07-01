@@ -22,27 +22,32 @@ desktop="xfce"
 
 #build.sh
 oldname1="iso_name=arcolinux"
-newname1="iso_name=arcolinuxb-lts-$desktop"
+newname1="iso_name=arcolinuxb-$desktop-lts"
 
 oldname2='iso_label="arcolinux'
-newname2='iso_label="alb-lts-'$desktop
+newname2='iso_label="alb-'$desktop'-lts'
 
 #os-release
 oldname3='NAME="ArcoLinux"'
-newname3='NAME=ArcoLinux-lts-'$desktop
+newname3='NAME="ArcoLinuxB-'$desktop'-lts"'
 
-oldname4='ID=ArcoLinux'
-newname4='ID=ArcoLinuxB-lts-'$desktop
+oldname4='ID=arcolinux'
+newname4='ID=arcolinuxb-'$desktop'-lts'
 
 #lsb-release
 oldname5='DISTRIB_ID=ArcoLinux'
-newname5='DISTRIB_ID=ArcoLinuxB-lts-'$desktop
+newname5='DISTRIB_ID=ArcoLinuxB-'$desktop'-lts'
 
 oldname6='DISTRIB_DESCRIPTION="ArcoLinux"'
-newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-lts-'$desktop
+newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-'$desktop'-lts'
 
+#hostname
 oldname7='ArcoLinux'
 newname7='ArcoLinuxB-'$desktop
+
+#hosts
+oldname8='ArcoLinux'
+newname8='ArcoLinuxB-'$desktop
 
 echo
 echo "################################################################## "
@@ -85,8 +90,8 @@ sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
-sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hosts
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
+sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 
 echo
 echo "################################################################## "
@@ -189,6 +194,7 @@ yes | sudo pacman -Scc
 echo
 echo "################################################################## "
 echo "You have chosen for the linux-lts kernel"
+echo "Let us change some of the packages"
 echo "################################################################## "
 echo
 
@@ -198,8 +204,9 @@ FIND="calamares"
 REPLACE="calamares-lts"
 sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
-FIND="arcolinux-calamares-git"
-REPLACE="arcolinux-calamares-lts-git"
+#extra fix for wrong replacement
+FIND="arcolinuxb-calamares-lts-"$desktop"-git"
+REPLACE="arcolinuxb-calamares-"$desktop"-lts-git"
 sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
 FIND="#arcolinux-local-repo-git"
