@@ -14,7 +14,7 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-buildFolder="$HOME/arcolinux-build"
+buildFolder="$HOME/arcolinuxb-build"
 outFolder="$HOME/ArcoLinuxB-Out"
 
 #Setting variables
@@ -85,8 +85,8 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 3 : Renaming the ArcoLinux iso";tput sgr0
 echo "################################################################## "
 echo
-echo "Renaming to arcolinuxb-"$desktop
-echo "Renaming to alb-"$desktop
+echo "Renaming to "$newname1
+echo "Renaming to "$newname2
 echo
 sed -i 's/'$oldname1'/'$newname1'/g' ../work/archiso/build.sh
 sed -i 's/'$oldname2'/'$newname2'/g' ../work/archiso/build.sh
@@ -192,7 +192,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $outFolder/archiso/out/arcolinux* $outFolder
+cp $buildFolder/archiso/out/arcolinuxb* $outFolder
 
 echo
 echo "################################################################## "
@@ -200,4 +200,4 @@ tput setaf 2;echo "Phase 9 : Making sure we start with a clean slate next time";
 echo "################################################################## "
 echo
 echo "Deleting the build folder if one exists - takes some time"
-[ -d ~/arcolinuxb-build ] && sudo rm -rf ~/arcolinuxb-build
+[ -d $buildFolder ] && sudo rm -rf $buildFolder
