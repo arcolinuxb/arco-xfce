@@ -429,7 +429,8 @@ zafiro-icon-theme
 ###tools
 mkinitcpio-openswap
 
-###utilities
+###utilities-repo
+archiso
 aurvote-git
 conky-lua-archers
 downgrade
