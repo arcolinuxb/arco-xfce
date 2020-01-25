@@ -332,10 +332,10 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-#oh-my-zsh-git
+oh-my-zsh-git
 p7zip
 #plank
-#playerctl
+playerctl
 polkit
 polkit-gnome
 python2-dbus
@@ -371,9 +371,9 @@ xdotool
 xdg-desktop-portal-gtk
 #youtube-dl
 zenity
-#zsh
-#zsh-completions
-#zsh-syntax-highlighting
+zsh
+zsh-completions
+zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPOS
@@ -391,8 +391,8 @@ breeze
 #xcursor-vanilla-dmz-aa
 
 ###fonts
-#ttf-font-awesome
-#ttf-ms-fonts
+ttf-font-awesome
+ttf-ms-fonts
 
 ###icons
 #faba-icon-theme
@@ -513,7 +513,7 @@ arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-#arcolinux-zsh-git
+arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
