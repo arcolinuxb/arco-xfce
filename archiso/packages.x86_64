@@ -256,7 +256,6 @@ numlockx
 scrot
 #simplescreenrecorder
 termite
-#tint2
 variety
 #vlc
 
@@ -694,6 +693,7 @@ lightdm
 #obconf
 #openbox
 #perl-linux-desktopfiles
+#tint2
 #xcape
 
 ###lx-applications
