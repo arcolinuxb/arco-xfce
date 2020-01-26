@@ -259,11 +259,11 @@ termite
 #variety
 #vlc
 
-#conky
+###conky
 #jq
 #lm_sensors
 
-#cursors
+###cursors
 #xcursor-simpleandsoft
 
 #fonts
@@ -375,7 +375,7 @@ xdg-desktop-portal-gtk
 #zsh-syntax-highlighting
 
 ###########################################################################
-#                           ARCOLINUX_REPO_ISO
+#                           ARCOLINUX_REPOS
 ###########################################################################
 
 ###applications
@@ -422,19 +422,17 @@ font-manager-git
 #grub-customizer
 #hardcode-fixer-git
 #inxi
-#menulibre
 #mintstick-git
-#mugshot
 neofetch
 #numix-gtk-theme-git
-pamac-aur
+#pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
 #python-pyparted
 #python-pywal
 #screenkey-git
-sublime-text-dev
-the_platinum_searcher-bin
+#sublime-text-dev
+#the_platinum_searcher-bin
 #tmux
 #trizen
 #urxvt-perls
@@ -463,13 +461,13 @@ yay-bin
 #arcolinux-common-git
 #arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
-arcolinux-cron-git
+#arcolinux-cron-git
 #arcolinux-docs-git
 #arcolinux-faces-git
 #arcolinux-fonts-git
 #arcolinux-geany-git
 arcolinux-grub-theme-vimix-git
-arcolinux-hblock-git
+#arcolinux-hblock-git
 arcolinux-keyring
 #arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
@@ -669,6 +667,14 @@ lightdm
 #picom
 
 ###########################################################################
+#                         GENERAL DESKTOP RELATED
+###########################################################################
+
+#mugshot
+#menulibre
+
+
+###########################################################################
 #                         ARCOLINUX ISO SPECIFIC
 ###########################################################################
 
@@ -695,6 +701,7 @@ lightdm
 #perl-linux-desktopfiles
 #tint2
 #xcape
+#openbox-themes-pambudi-git
 
 ###lx-applications
 #lxappearance
@@ -719,7 +726,7 @@ xfce4-panel
 xfce4-power-manager
 xfce4-session
 xfce4-settings
-#xfce4-terminal
+xfce4-terminal
 xfconf
 xfdesktop
 xfwm4
@@ -757,7 +764,7 @@ xfce4-notifyd
 #xfce4-sensors-plugin
 #xfce4-smartbookmark-plugin
 #xfce4-systemload-plugin
-#xfce4-taskmanager
+xfce4-taskmanager
 #xfce4-time-out-plugin
 #xfce4-timer-plugin
 #xfce4-verve-plugin
