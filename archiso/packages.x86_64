@@ -299,7 +299,7 @@ bash-completion
 #catfish
 cronie
 dconf-editor
-#dmidecode
+dmidecode
 #evince
 expac
 file-roller
@@ -465,7 +465,7 @@ arcolinux-cron-git
 #arcolinux-docs-git
 arcolinux-faces-git
 arcolinux-fonts-git
-#arcolinux-geany-git
+arcolinux-geany-git
 arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
@@ -701,6 +701,7 @@ menulibre
 #perl-linux-desktopfiles
 #tint2
 #xcape
+#openbox-themes-pambudi-git
 
 ###lx-applications
 #lxappearance
