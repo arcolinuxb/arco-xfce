@@ -163,7 +163,6 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
-volumeicon
 
 ###bluetooth
 blueberry
@@ -347,7 +346,7 @@ qt5-webkit
 #powertop
 reflector
 #redshift
-rofi
+#rofi
 rxvt-unicode
 #simple-scan
 #shotwell
@@ -495,8 +494,8 @@ arcolinux-pipemenus-git
 #arcolinux-polybar-git
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-arcolinux-rofi-git
-arcolinux-rofi-themes-git
+#arcolinux-rofi-git
+#arcolinux-rofi-themes-git
 arcolinux-root-git
 arcolinux-slim
 arcolinux-slimlock-themes-git
@@ -672,6 +671,7 @@ lightdm
 
 mugshot
 menulibre
+#volumeicon
 
 ###########################################################################
 #                         ARCOLINUX ISO SPECIFIC
@@ -716,7 +716,7 @@ menulibre
 ### xfce4 group content
 # https://www.archlinux.org/groups/x86_64/xfce4/
 exo
-garcon
+#garcon
 thunar
 thunar-volman
 tumbler
