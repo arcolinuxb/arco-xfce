@@ -163,7 +163,6 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
-#volumeicon
 
 ###bluetooth
 #blueberry
@@ -492,6 +491,7 @@ arcolinux-mirrorlist-git
 arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
+#arcolinux-plasma-kservices-git
 #arcolinux-polybar-git
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
@@ -599,6 +599,7 @@ arco-calamares
 #arco-calamares-next
 arcolinux-system-installation-git
 #arcolinux-config-live-session-git
+arcolinux-welcome-app-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -672,7 +673,7 @@ lightdm
 
 #mugshot
 #menulibre
-
+#volumeicon
 
 ###########################################################################
 #                         ARCOLINUX ISO SPECIFIC
