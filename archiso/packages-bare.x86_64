@@ -418,7 +418,7 @@ archiso
 #aurvote-git
 #conky-lua-archers
 #downgrade
-font-manager-git
+#font-manager-git
 #glxinfo
 #grub-customizer
 #hardcode-fixer-git
