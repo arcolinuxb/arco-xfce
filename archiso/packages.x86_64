@@ -748,7 +748,7 @@ xfwm4-themes
 ristretto
 thunar-archive-plugin
 thunar-media-tags-plugin
-xfburn
+#xfburn
 #xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
