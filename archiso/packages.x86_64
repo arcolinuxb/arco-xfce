@@ -247,12 +247,12 @@ imagemagick
 #inkscape
 #libreoffice-fresh
 lshw
-meld
+#meld
 #nitrogen
 numlockx
 #pragha
 #qbittorrent
-scrot
+#scrot
 #simplescreenrecorder
 termite
 variety
@@ -432,7 +432,7 @@ pamac-aur
 python-pyparted
 #python-pywal
 #screenkey-git
-sublime-text-dev
+#sublime-text-dev
 the_platinum_searcher-bin
 tmux
 trizen
@@ -457,7 +457,7 @@ yay-bin
 ###########################################################################
 
 #arcolinux-arc-kde
-arcolinux-arc-themes-nico-git
+#arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
 arcolinux-conky-collection-git
