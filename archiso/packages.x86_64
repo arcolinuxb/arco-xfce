@@ -252,7 +252,7 @@ lshw
 numlockx
 #pragha
 #qbittorrent
-#scrot
+scrot
 #simplescreenrecorder
 termite
 variety
@@ -433,7 +433,7 @@ python-pyparted
 #python-pywal
 #screenkey-git
 #sublime-text-dev
-the_platinum_searcher-bin
+#the_platinum_searcher-bin
 tmux
 trizen
 urxvt-perls

@@ -235,7 +235,7 @@ cups
 #dmenu
 #evolution
 #feh
-#firefox
+firefox
 #flashplugin
 #galculator
 #geany
@@ -252,7 +252,7 @@ cups
 numlockx
 #pragha
 #qbittorrent
-#scrot
+scrot
 #simplescreenrecorder
 termite
 #variety
@@ -433,7 +433,7 @@ neofetch
 #python-pywal
 #screenkey-git
 #sublime-text-dev
-#the_platinum_searcher-bin
+##the_platinum_searcher-bin
 #tmux
 #trizen
 #urxvt-perls
