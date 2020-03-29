@@ -186,7 +186,6 @@ network-manager-applet
 #networkmanager-dispatcher-ntpd
 openresolv
 #samba
-wpa_supplicant
 
 ###file management
 gvfs
