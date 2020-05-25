@@ -499,8 +499,8 @@ arcolinux-qt5-git
 #arcolinux-rofi-git
 #arcolinux-rofi-themes-git
 arcolinux-root-git
-arcolinux-slim
-arcolinux-slimlock-themes-git
+#arcolinux-slim
+#arcolinux-slimlock-themes-git
 arcolinux-system-config-git
 #arcolinux-systemd-services-git
 arcolinux-termite-themes-git
