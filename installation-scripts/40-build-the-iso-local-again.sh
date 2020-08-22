@@ -32,26 +32,12 @@ oldname2='iso_label="arcolinux'
 newname2='iso_label="arcolinuxb-'$desktop
 
 #os-release
-oldname3='NAME="ArcoLinux"'
-newname3='NAME=ArcoLinuxB-'$desktop
-
-oldname4='ID=ArcoLinux'
-newname4='ID=ArcoLinuxB-'$desktop
-
-#lsb-release
-oldname5='DISTRIB_ID=ArcoLinux'
-newname5='DISTRIB_ID=ArcoLinuxB-'$desktop
-
-oldname6='DISTRIB_DESCRIPTION="ArcoLinux"'
-newname6='DISTRIB_DESCRIPTION=ArcoLinuxB-'$desktop
+oldname3='ISO_CODENAME=ArcoLinux'
+newname3='ISO_CODENAME=ArcoLinuxB-'$desktop
 
 #hostname
 oldname7='ArcoLinux'
 newname7='ArcoLinuxB-'$desktop
-
-#hosts
-oldname8='ArcoLinux'
-newname8='ArcoLinuxB-'$desktop
 
 #lightdm.conf user-session
 oldname9='user-session=xfce'
@@ -70,6 +56,7 @@ echo "Deleting the work folder if one exists"
 [ -d ../work ] && sudo rm -rf ../work
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
+
 echo "Git cloning files and folder to work folder"
 git clone https://github.com/arcolinux/arcolinux-iso ../work
 
@@ -99,12 +86,8 @@ echo "Renaming to "$newname2
 echo
 sed -i 's/'$oldname1'/'$newname1'/g' ../work/archiso/build.sh
 sed -i 's/'$oldname2'/'$newname2'/g' ../work/archiso/build.sh
-sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/os-release
-sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
-sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
-sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
+sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/dev-rel
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
-sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 sed -i 's/'$oldname9'/'$newname9'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
 sed -i 's/'$oldname10'/'$newname10'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
 
@@ -161,6 +144,7 @@ else
 
 fi
 
+
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 5 : Moving files to build folder";tput sgr0
@@ -174,6 +158,11 @@ sudo cp -r ../work/* $buildFolder
 sudo chmod 750 ~/arcolinuxb-build/archiso/airootfs/etc/sudoers.d
 sudo chmod 750 ~/arcolinuxb-build/archiso/airootfs/etc/polkit-1/rules.d
 sudo chgrp polkitd ~/arcolinuxb-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 $buildFolder/archiso/airootfs/root
+
+echo "adding time to /etc/dev-rel"
+date_build=$(date -d now)
+sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
 
 cd $buildFolder/archiso
 
