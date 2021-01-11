@@ -37,7 +37,7 @@ Linked in: https://www.linkedin.com/in/arcolinux
 
 Youtube  : https://www.youtube.com/erikdubois
 
-Mastadon Page : https://mastodon.social/@arcolinux
+Mastodon Page : https://mastodon.social/@arcolinux
 
 Mewe Group : https://mewe.com/group/5bbc4577a40f3002b313671d
 
