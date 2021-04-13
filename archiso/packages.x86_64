@@ -625,7 +625,7 @@ arcolinux-config-xfce-git
 #                           ARCOLINUX DCONF FOLDER
 ###########################################################################
 
-#arcolinux-dconf-all-desktops-git
+arcolinux-dconf-all-desktops-git
 #arcolinux-awesome-dconf-git
 #arcolinux-bspwm-dconf-git
 #arcolinux-budgie-dconf-git
@@ -649,7 +649,7 @@ arcolinux-config-xfce-git
 #arcolinux-qtile-dconf-git
 #arcolinux-spectrwm-dconf-git
 #arcolinux-ukui-dconf-git
-arcolinux-xfce-dconf-git
+#arcolinux-xfce-dconf-git
 #arcolinux-xmonad-dconf-git
 #arcolinux-xtended-dconf-git
 
