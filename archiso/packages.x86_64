@@ -387,7 +387,7 @@ unzip
 w3m
 webkit2gtk
 wmctrl
-xapps
+xapp
 xdo
 xdotool
 xdg-desktop-portal-gtk
@@ -740,7 +740,7 @@ arcob-calamares-config-xfce-git
 accountsservice
 
 
-##sddm
+###sddm
 sddm
 arcolinux-sddm-sugar-candy-git
 sddm-config-editor-git
