@@ -300,7 +300,7 @@ variety
 #vlc
 
 ###conky
-jq
+#jq
 #lm_sensors
 
 ###cursors
@@ -332,7 +332,7 @@ kvantum-qt5
 #openbox-arc-git
 
 ###utilities
-arandr
+#arandr
 asciinema
 bash-completion
 #baobab
@@ -360,7 +360,7 @@ gparted
 #gpick
 #gtop
 hardinfo
-#hddtemp
+#hddtempdisk
 htop
 #hunspell
 #hunspell-en_US
@@ -368,9 +368,9 @@ hw-probe
 #hyphen
 #hyphen-en
 #grsync
-intltool
+#intltool
 iw
-jsoncpp
+#jsoncpp
 libmtp
 laptop-detect
 lsb-release
@@ -379,16 +379,16 @@ mlocate
 oh-my-zsh-git
 p7zip
 #plank
-playerctl
+#playerctl
 polkit
 polkit-gnome
 #python2-dbus
-python2-xdg
+#python2-xdg
 #qt4
 qt5ct
 #qt5-styleplugins
 #qt5-tools
-qt5-webkit
+#qt5-webkit
 #powertop
 #redshift
 ripgrep
@@ -400,7 +400,7 @@ speedtest-cli-git
 #telegram-desktop
 #timeshift
 #tlp
-tree
+#tree
 #ufw
 #gufw
 unace
@@ -411,8 +411,8 @@ w3m
 webkit2gtk
 wmctrl
 xapp
-xdo
-xdotool
+#xdo
+#xdotool
 xdg-desktop-portal-gtk
 #youtube-dl
 zenity
