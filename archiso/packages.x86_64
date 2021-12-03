@@ -790,7 +790,7 @@ arcob-calamares-config-xfce-git
 accountsservice
 
 
-###sddm
+##sddm
 sddm
 #arcolinux-sddm-sugar-candy-git
 arcolinux-sddm-simplicity-git
