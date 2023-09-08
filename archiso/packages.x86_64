@@ -15,7 +15,6 @@ broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
-#crda
 cryptsetup
 #darkhttpd
 ddrescue
@@ -34,6 +33,7 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+#foot-terminfo
 fsarchiver
 gnu-netcat
 gpart
@@ -44,8 +44,6 @@ grub
 hdparm
 hyperv
 intel-ucode
-#ipw2100-fw
-#ipw2200-fw
 irssi
 #iw
 #iwd
@@ -58,7 +56,6 @@ libusb-compat
 linux
 linux-atm
 linux-firmware
-linux-firmware-qlogic
 linux-firmware-marvell
 #livecd-sounds
 lsscsi
@@ -123,6 +120,7 @@ usbutils
 vim
 #virtualbox-guest-utils-nox
 vpnc
+#wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -134,6 +132,7 @@ xl2tpd
 aic94xx-firmware
 dialog
 dnsutils
+linux-firmware-qlogic
 linux-headers
 logrotate
 ntp
@@ -291,7 +290,7 @@ variety
 
 ###fonts
 adobe-source-sans-fonts
-awesome-terminal-fonts
+#awesome-terminal-fonts
 noto-fonts
 #ttf-bitstream-vera
 ttf-dejavu
@@ -317,7 +316,7 @@ kvantum
 
 ###utilities
 #arandr
-asciinema
+#asciinema
 bash-completion
 #baobab
 bat
@@ -345,7 +344,7 @@ gparted
 #gtop
 hardinfo-gtk3
 #hddtemp
-htop
+#htop
 #hunspell
 #hunspell-en_US
 hw-probe
@@ -362,13 +361,13 @@ mlocate
 #nomacs
 oh-my-zsh-git
 p7zip
-pkgfile
+#pkgfile
 #plank
 #playerctl
 polkit
 polkit-gnome
 #python2-dbus
-#python2-xdg
+##python2-xdg
 #qt4
 qt5ct
 #qt5-styleplugins
@@ -380,11 +379,11 @@ ripgrep
 rxvt-unicode
 #simple-scan
 #shotwell
-speedtest-cli-git
+#speedtest-cli-git
 #telegram-desktop
 #timeshift
 tlp
-##tree
+#tree
 #ufw
 #gufw
 unace
@@ -447,8 +446,8 @@ mkinitcpio-openswap
 
 ###utilities-repo
 alacritty
-appstream
-archiso
+#appstream
+#archiso
 conky-lua-archers
 downgrade
 #font-manager
