@@ -10,7 +10,6 @@ arch-install-scripts
 #b43-fwcutter
 base
 bind
-#brltty
 broadcom-wl-dkms
 btrfs-progs
 clonezilla
@@ -44,8 +43,6 @@ grub
 hdparm
 hyperv
 intel-ucode
-irssi
-#iw
 #iwd
 jfsutils
 #kitty-terminfo
@@ -133,7 +130,6 @@ aic94xx-firmware
 dialog
 dnsutils
 libadwaita-without-adwaita-git
-linux-firmware-qlogic
 linux-headers
 logrotate
 ntp
@@ -447,7 +443,8 @@ mkinitcpio-openswap
 
 ###utilities-repo
 alacritty
-#appstream
+appstream
+appstream-qt5
 #archiso
 conky-lua-archers
 downgrade
@@ -460,7 +457,9 @@ inxi
 mintstick-git
 neofetch
 #numix-gtk-theme-git
-arcolinux-pamac-all
+#arcolinux-pamac-all
+octopi
+octopi-notifier-qt5
 #pamac-aur
 paru-bin
 #peek
